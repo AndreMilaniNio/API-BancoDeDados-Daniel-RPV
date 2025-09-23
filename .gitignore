@@ -1,0 +1,3 @@
+# Isso não será enviado para o GIT
+node_modules/
+.env
