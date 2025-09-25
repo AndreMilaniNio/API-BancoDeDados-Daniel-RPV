@@ -1,6 +1,10 @@
 
-GET http://localhost:3000
+GET http://localhost:3001
 
 ### - Limitador
 
-GET http://localhost:3000/produtos/1
+GET http://localhost:3001/marcas
+
+###
+
+GET http://localhost:3001/marcas/1
