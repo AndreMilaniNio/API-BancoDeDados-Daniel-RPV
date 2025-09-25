@@ -1,5 +1,7 @@
+import { database } from "./database/index.js";
 import { app } from "./app.js";
 import cors from "@fastify/cors";
+import "dotenv/config";
 
 async function server() {
   // Passando biblioteca "cors"
@@ -17,6 +19,8 @@ async function server() {
     .then(() => {
       console.log(`HTTP is running on PORT: ${process.env.PORT}`);
     });
+
+  // database.raw("SELECT * FROM produtos").then((result) => console.log(result));
 }
 
 server();

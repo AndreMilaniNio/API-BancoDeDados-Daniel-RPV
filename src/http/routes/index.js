@@ -3,11 +3,6 @@ export const routes = async (app) => {
     console.log("HELLOWORLD");
   });
 
-  
-
-
-
-
   // Rota para pegar um ID
   app.get("/produtos/:id", (req, res) => {
     console.log(req.params);
